@@ -1,0 +1,18 @@
+package homework.airport1;
+
+/*Used polymorphism with at least one abstract class
+Used 3 Protected variables*/
+public abstract class AirportManagement {
+    protected String airportId;
+    protected String airportName;
+    protected String airportLocation;
+
+    public AirportManagement(String airportName) {
+        System.out.println("Welcome to" + " " + airportName);
+    }
+
+    //Abstract method that must be implemented in the child class
+    public abstract void getAirportDetails(String airportId, String airportName,
+                                           String airportLocation);
+
+}
