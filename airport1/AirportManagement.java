@@ -1,6 +1,6 @@
 package homework.airport1;
 
-/*Used polymorphism with at least one abstract class
+/*Used polymorphism with at least one abstract class.
 Used 3 Protected variables*/
 public abstract class AirportManagement {
     protected String airportId;
