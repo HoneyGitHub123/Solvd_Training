@@ -12,7 +12,5 @@ public abstract class AirportManagement {
     }
 
     //Abstract method that must be implemented in the child class
-    public abstract void getAirportDetails(String airportId, String airportName,
-                                           String airportLocation);
-
+    public abstract void getAirportDetails(String airportId, String airportName, String airportLocation);
 }
