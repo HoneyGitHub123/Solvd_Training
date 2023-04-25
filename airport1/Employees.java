@@ -13,7 +13,7 @@ public abstract class Employees implements Salary {
     public Employees() {
     }
 
-    //Abstract method that must  be implemented in the child class
+    //Abstract method that must  be implemented in the child classes
     public abstract void getEmployeeDetails();
 }
 

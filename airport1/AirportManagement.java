@@ -11,6 +11,6 @@ public abstract class AirportManagement {
         System.out.println("Welcome to" + " " + airportName);
     }
 
-    //Abstract method that must be implemented in the child class
+    //Abstract method that must be implemented in the child classes
     public abstract void getAirportDetails(String airportId, String airportName, String airportLocation);
 }
